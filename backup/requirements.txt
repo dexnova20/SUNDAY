@@ -1,0 +1,27 @@
+# SUNDAY Assistant — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Audio I/O
+vosk
+sounddevice
+numpy
+openai-whisper
+scipy             # used for audio resampling in audio_manager
+
+# TTS / Voice
+pyttsx3
+gTTS
+pygame
+langdetect        # still used elsewhere — keep for now
+
+# UI / System control
+pyautogui
+pygetwindow
+pyperclip
+screen-brightness-control
+
+# Network / LLM
+requests
+
+# Utilities
+python-dotenv     # loads .env config (now actively loaded in main.py)

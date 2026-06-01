@@ -1,0 +1,17 @@
+# SUNDAY Assistant — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Processing
+numpy
+
+# UI / System control
+pyautogui
+pygetwindow
+pyperclip
+screen-brightness-control
+
+# Network / LLM
+requests
+
+# Utilities
+python-dotenv     # loads .env config (now actively loaded in main.py)
