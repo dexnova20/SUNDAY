@@ -1,0 +1,7 @@
+model/
+venv/
+*.log
+memory.json
+.env
+__pycache__/
+*.pyc
